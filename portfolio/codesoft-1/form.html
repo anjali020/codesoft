@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <link href="form.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>FORM </title>
+</head>
+<body>
+    <header> 
+        <h1> contact me </h1> 
+    </header>
+    <main>
+        <form action="https://formsubmit.co/el/guhujo " method="POST"> 
+            <section>
+                <ul>
+                    <li>
+                        <label for="username">your name </label>
+                        <input type="text" id="username" name="username" required>
+                    </li>
+                
+                    <li>
+                        <label for="phone">phone no. </label>
+                        <input type="phone" id="phone" name="phone" minlength="10" required>
+                    </li>
+                    <li>
+                        <label for="email">email </label>
+                        <input type="email" id="email" name="email"required>
+                    </li>
+                    <li>
+                        <label for=" message">message </label>
+                        <textarea id="message" name="message" minlength="100" maxlength="200" row="8"></textarea>
+                    </li>
+                 </ul>
+            </section>
+          
+            <section id="form action">
+                <button type="reset" class="btn-empty">clear</button>
+                <button type="submit" class="btn-filled">submit</button>
+            </section>      
+        </form>
+    </main>
+    </body>
+    </html>
